@@ -1,2 +1,2 @@
 # SelfTools
- Utilistaire by SelfS
+ Utilistaire pour le calcul du moment.
