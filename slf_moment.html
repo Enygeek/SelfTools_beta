@@ -181,9 +181,87 @@ Coded by www.creative-tim.com
 -->
 
     <div class="container section">
-      <h3 class="h4 text-yellow font-weight-bold mb-4 text-center">Self<span class="text-dark"> Tools</span></h3>
+      <h3 class="h4 text-yellow font-weight-bold mb-4 text-center">Self<span class="text-dark"> Tools - Moment</span></h3>
 
-      <div class="row">
+
+      <div class="">
+
+        <form class="">
+          <div class="row">
+            <!-- Question 1 -->
+            <div class="col-sm-12 col-md-12 text-center justify-content-center mb-4">
+              <h5 class="text-center mb-3">
+                Sommes-nous en signalisation routière ?
+              </h5>
+              <div class="btn-wrapper mb-2">
+                <a href="" class="btn btn-danger mb-3 mb-sm-0">Non</a>
+                <a href="" class="btn btn-success  mb-3 mb-sm-0">Oui</a>
+              </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="form-group col-sm-12 col-md-12">
+              <label for="slf_zone">Selectionner la zone</label>
+              <select class="form-control" id="slf_zone">
+                <option>Zone 1</option>
+                <option>Zone 2</option>
+                <option>Zone 3</option>
+                <option>Zone 4</option>
+                <option>Zone 5</option>
+              </select>
+
+
+
+            </div>
+
+            <!-- Question 3 -->
+            <div class="col-lg-12 col-sm-12 col-md-12 mb-3">
+              <div class="row">
+                <div class="form-groupn col-lg-6 col-sm-6 col-md-6">
+                  <label for="slf_zone">Largeur</label>
+                  <input type="number" min="0" placeholder="00" class="form-control" />
+                </div>
+                <div class="form-group col-lg-6 col-sm-6 col-md-6">
+                  <label for="slf_zone">Hauteur</label>
+                  <input type="number" min="0" placeholder="00" class="form-control" />
+                </div>
+                <div class="form-group col-lg-6 col-sm-6 col-md-6">
+                  <label for="slf_zone">Hauteur sous panneau</label>
+                  <input type="number" min="0" placeholder="00" class="form-control" />
+                </div>
+                <div class="form-group col-lg-6 col-sm-6 col-md-6">
+                  <label for="slf_zone">A</label>
+                  <input type="number" min="0" max="2" placeholder="00" class="form-control" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 text-center justify-content-center mb-4">
+              <div class="btn-wrapper mb-2">
+                <a href="" class="btn bg-yellow btn-dark mb-3 mb-sm-0">Calculer le moment</a>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+
+
+        <div class="mec-hidden-show-details-btn">
+          <p class="mec-hidden-show-details-label">Afficher les details</p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="svg-show-details" height="8" viewBox="0 0 376.928 6.368">
+            <defs>
+              <linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#fff"></stop>
+                <stop offset="1" stop-color="#DBEAEB"></stop>
+              </linearGradient>
+            </defs>
+            <path data-name="Trac\xE9 804" d="m157-149.1 192.276 6.368 184.652-6.368" transform="rotate(180 266.964 -71.364)" fill="url(#a)"></path>
+          </svg>
+        </div>
+
+
+
         <div class="col-sm-12 col-md-6 mb-4">
           <button type="button" class="btn btn-block btn-primary mb-3">Calcul du moment</button>
           <div>
@@ -192,8 +270,8 @@ Coded by www.creative-tim.com
 
               Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 
-              <a class="btn btn-outline-success mb-2 mt-3" href="slf_moment.html">Calculer</a>
-             </div>
+              <button type="button" class="btn btn-outline-success mb-0 mt-3" data-toggle="collapse" href="slf_moment.html">Calculer</button>
+            </div>
           </div>
 
         </div>
