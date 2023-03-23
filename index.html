@@ -1,252 +1,151 @@
-<!--
-=========================================================
-* Argon Design System - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>SelfTools - Home</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <title>
-    Argon Design System by Creative Tim
-  </title>
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- Font Awesome Icons -->
-  <link href="./assets/css/font-awesome.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- CSS Files -->
-  <link href="./assets/css/argon-design-system.css?v=1.2.2" rel="stylesheet" />
-</head>
+    <!-- Fonts and icons -->
+    <!-- Nucleo Icons -->
+    <link href="./assets/dist/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/dist/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link href="assets/dist/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/dist/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<body class="index-page">
-  <!-- Navbar -->
-  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2">
-    <div class="container">
-      <a class="navbar-brand mr-lg-5" href="./index.html">
-        <img src="./assets/img/favicon.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbar_global">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="./index.html">
-                <img src="./assets/img/brand/logo-selfsignal.png">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <style>
+
+    </style>
+    <!-- Custom styles for this template  -->
+    <link href="assets/dist/css/selftools.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md bg-white navbar-light fixed-top shadow mb-3">
+        <div class="container">
+          <a class="navbar-brand mr-lg-5" href="./index.html">
+            <img src="assets/img/logo-selfsignal.png" width="80">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Utilitaires</a>
+              </li>
+            </ul>
+
+                <ul class="navbar-nav align-items-lg-center ml-lg-auto text-dark px-3">
+                  <li class="nav-item px-2">
+                    <a class="nav-link nav-link-icon" href="https://www.facebook.com/Selfsignal/" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+                      <i class="fa fa-facebook-square"></i>
+                      <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-icon" href="https://www.instagram.com/selfsignal/?hl=en" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+                      <i class="fa fa-instagram"></i>
+                      <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-icon px-3" href="https://twitter.com/self_signal?lang=fr" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+                      <i class="fa fa-twitter-square"></i>
+                      <span class="nav-link-inner--text d-lg-none">Twitter</span>
+                    </a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="btn btn-outline-dark" href="https://selfsignal.fr/" target="_blank">
+                      <span class="nav-link-inner--text">Nous decouvrir</span>
+                    </a>
+              </li>
+            </ul>
+
+
           </div>
         </div>
-        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-ui-04 d-lg-none"></i>
-              <span class="nav-link-inner--text">Utilitaires</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-xl">
-              <div class="dropdown-menu-inner">
-                <a href="" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                    <!--<i class="ni-spaceship"></i>-->
-                    <i class="fa-thin fa-signs-post"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Calcul du moment</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Calculer le moment, la force du vent et déterminer ainsi toute les données nécéssaires pour réaliser une pose parfaite.</p>
-                  </div>
-                </a>
-                <!--
-                <a href="" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                    <i class="ni ni-palette"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Foundation</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for .</p>
-                  </div>
-                </a>
-                <a href="" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                    <i class="ni ni-ui-04"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h5 class="heading text-warning mb-md-1">Components</h5>
-                    <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                  </div>
-                </a>
-                -->
-              </div>
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.facebook.com/Selfsignal/" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
-              <i class="fa fa-facebook-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Facebook</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.instagram.com/selfsignal/?hl=en" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
-              <i class="fa fa-instagram"></i>
-              <span class="nav-link-inner--text d-lg-none">Instagram</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://twitter.com/self_signal?lang=fr" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
-              <i class="fa fa-twitter-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Twitter</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-outline-dark" href="https://selfsignal.fr/" target="_blank">
-              <span class="nav-link-inner--text">Nous decouvrir</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navbar -->
-  <div class="wrapper">
-    <!--<div class="section section-hero section-shaped">
-      <div class="shape shape-style-1 shape-primary">
-        <span class="span-150"></span>
-        <span class="span-50"></span>
-        <span class="span-50"></span>
-        <span class="span-75"></span>
-        <span class="span-100"></span>
-        <span class="span-75"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-      </div>
-      <div class="page-header">
-        <div class="container shape-container d-flex align-items-center py-lg">
-          <div class="col px-0">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-6 text-center">
-                <img src="./assets/img/brand/white.png" style="width: 200px;" class="img-fluid">
-                <p class="lead text-white">A beautiful Design System for Bootstrap 4. It's Free and Open Source.</p>
-                <div class="btn-wrapper mt-5">
-                  <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
-                    <span class="btn-inner--text">Download HTML</span>
-                  </a>
-                  <a href="https://github.com/creativetimofficial/argon-design-system" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank">
-                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    <span class="btn-inner--text"><span class="text-warning">Star us</span> on Github</span>
-                  </a>
-                </div>
-                <div class="mt-5">
-                  <small class="font-weight-bold mb-0 mr-2 text-white">*proudly coded by</small>
-                  <img src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="separator separator-bottom separator-skew zindex-100">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </div>
-  </div>
--->
+      </nav>
+      <!-- Navbar -->
+    </header>
 
+
+    <!-- Presentation -->
     <div class="container section">
-      <h3 class="h4 text-yellow font-weight-bold mb-4 text-center">Self<span class="text-dark"> Tools</span></h3>
 
-      <div class="row">
-        <div class="col-sm-12 col-md-6 mb-4">
-          <button type="button" class="btn btn-block btn-primary mb-3">Calcul du moment</button>
-          <div>
-            <div class="card card-body">
-              <img class="card-img-top mb-1" src="assets/img/Moment.PNG" alt="Card image cap">
+      <!-- Title - presentation-->
+      <h1 class=" text-warning font-weight-bold mb-0 mt-3 text-center">
+        Self<span class="text-dark"> Tools</span>
+      </h1>
+      <!-- FIN - Title - presentation-->
 
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      <div class="container py-4">
 
-              <a class="btn btn-outline-success mb-2 mt-3" href="slf_moment.html">Calculer</a>
-             </div>
+        <div class="px-4 pt-0 mb-4 text-center border-bottom">
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              Calculer le moment, la force du vent et déterminer ainsi toutes les données nécéssaires pour réaliser une pose parfaite.</p>
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <a href="slf_moment.html" type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3">Calculer le moment</a>
+              <button type="button" class="btn btn-outline-dark btn-lg px-4">En savoir plus</button>
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+              <img src="assets/img/Moment.PNG" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy" width="700" height="500">
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-md-stretch">
+
+          <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+              <h2>Le moment </h2>
+              <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+              <button class="btn btn-outline-light" type="button">Example button</button>
+            </div>
           </div>
 
-        </div>
-        <div class="col-sm-12 col-md-6 mb-4">
-          <button type="button" class="btn btn-block btn-warning mb-3">Calcul de ...</button>
-          <div class="card card-body">
-            Bientôt disponible...
+          <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 bg-warning border rounded-3">
+              <h2>Plus de détails</h2>
+              <p class="text-white">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+              <button class="btn btn-outline-dark" type="button">Example button</button>
+            </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 mb-4">
-          <button type="button" class="btn btn-block btn-default mb-3">Calcul de ...</button>
-        </div>
+
+        <footer class="pt-3 mt-4 text-muted border-top">
+          Self Signal © 2023
+        </footer>
       </div>
+
     </div>
-  <footer class=" footer bg-white">
-    <hr>
-  </footer>
 
-  </div>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <script src="./assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.min.js"></script>
-  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <script src="./assets/js/argon-design-system.min.js?v=1.2.2" type="text/javascript"></script>
-  <script>
-    function scrollToDownload() {
+    <!-- FIN - Presentation -->
 
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
-  </script>
-  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-  <script>
-    window.TrackJS &&
-      TrackJS.install({
-        token: "ee6fab19c5a04ac1a32a645abde4613a",
-        application: "argon-design-system-pro"
-      });
-  </script>
-</body>
+    <!-- FOOTER
+    <footer class="container mt-5">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+    -->
 
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>

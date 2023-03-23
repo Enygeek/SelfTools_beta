@@ -1,0 +1,17 @@
+
+
+
+.section {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.bg-mapzone{
+    height: 500px;
+    background-image: url("../../img/zones.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+}
