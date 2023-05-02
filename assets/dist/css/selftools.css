@@ -1,6 +1,8 @@
 
 
-
+.body-style{
+    background: #f7f7f7;
+}
 .section {
     position: relative;
     padding-top: 5rem;
